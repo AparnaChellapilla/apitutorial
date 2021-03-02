@@ -16,7 +16,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private long id;
 
     @Email
     @NotNull
@@ -34,7 +34,7 @@ public class User {
         return id;
     }
 
-//    public void setId(Long id) {
+//   public void setId(Long id) {
 //        this.id = id;
 //    }
 
@@ -60,5 +60,6 @@ public class User {
     }
 
     public User() {
+
     }
 }
